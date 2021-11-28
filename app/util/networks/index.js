@@ -1,7 +1,7 @@
 import { colors } from '../../styles/common';
 import URL from 'url-parse';
 import AppConstants from '../../core/AppConstants';
-import { MAINNET, ROPSTEN, KOVAN, RINKEBY, GOERLI, RPC } from '../../../app/constants/network';
+import { MAINNET, ETHEREUM, ROPSTEN, KOVAN, RINKEBY, GOERLI, RPC } from '../../../app/constants/network';
 import { util } from '@metamask/controllers';
 import Engine from '../../core/Engine';
 import { toLowerCaseEquals } from './../general';
@@ -15,6 +15,15 @@ import { toLowerCaseEquals } from './../general';
  */
 const NetworkList = {
 	[MAINNET]: {
+		name: 'Polygon Main Network',
+		shortName: 'Polygon',
+		networkId: 137,
+		chainId: 137,
+		hexChainId: '0x89',
+		color: '#8247e5',
+		networkType: 'polygon',
+	},
+	[ETHEREUM]: {
 		name: 'Ethereum Main Network',
 		shortName: 'Ethereum',
 		networkId: 1,

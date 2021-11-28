@@ -58,8 +58,8 @@ const Tab = createBottomTabNavigator();
 
 const styles = StyleSheet.create({
 	headerLogo: {
-		width: 125,
-		height: 50,
+		width: 50,
+		height: 10,
 	},
 	hidden: {
 		opacity: 0,
@@ -352,7 +352,7 @@ const MainNavigator = () => (
 				<Image
 					style={styles.headerLogo}
 					source={require('../../../images/metamask-name.png')}
-					resizeMode={'contain'}
+					resizeMode={'auto'}
 				/>
 			)}
 			// eslint-disable-next-line react-native/no-inline-styles

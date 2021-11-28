@@ -41,7 +41,7 @@ const main = async () => {
 			imageModulesPath,
 			`\n\t${isBlacklisted ? '//' : ''}'${
 				token.logo
-			}': require('metamask/node_modules/@metamask/contract-metadata/images/${token.logo}'),`
+			}': require('peronio-mobile/node_modules/@metamask/contract-metadata/images/${token.logo}'),`
 		);
 	}
 	await fs.appendFileSync(imageModulesPath, '\n};\n');
