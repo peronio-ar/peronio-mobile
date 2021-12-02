@@ -227,7 +227,7 @@ buildIosReleaseE2E(){
 
 buildAndroidRelease(){
 	if [ "$PRE_RELEASE" = false ] ; then
-		adb uninstall io.metamask || true
+		adb uninstall ar.peronio || true
 	fi
 	prebuild_android
 

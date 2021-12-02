@@ -255,7 +255,7 @@ workflows:
         envs:
             - opts:
                   is_expand: false
-              MM_ANDROID_PACKAGE_NAME: io.metamask
+              MM_ANDROID_PACKAGE_NAME: ar.peronio
     ios_test_release_step:
         before_run:
             - code_setup_cache

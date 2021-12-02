@@ -1,4 +1,4 @@
-package io.metamask;
+package ar.peronio;
 
 import com.facebook.react.ReactActivityDelegate;
 import com.facebook.react.ReactFragmentActivity;

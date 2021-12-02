@@ -1,7 +1,7 @@
 import { colors } from '../../styles/common';
 import URL from 'url-parse';
 import AppConstants from '../../core/AppConstants';
-import { MAINNET, ETHEREUM, ROPSTEN, KOVAN, RINKEBY, GOERLI, RPC } from '../../../app/constants/network';
+import { MAINNET, ETHEREUM, BSC, RPC } from '../../../app/constants/network';
 import { util } from '@metamask/controllers';
 import Engine from '../../core/Engine';
 import { toLowerCaseEquals } from './../general';
@@ -21,7 +21,8 @@ const NetworkList = {
 		chainId: 137,
 		hexChainId: '0x89',
 		color: '#8247e5',
-		networkType: 'polygon',
+		ticker: 'MATIC',
+		networkType: 'rpc',
 	},
 	[ETHEREUM]: {
 		name: 'Ethereum Main Network',
@@ -32,41 +33,14 @@ const NetworkList = {
 		color: '#3cc29e',
 		networkType: 'mainnet',
 	},
-	[ROPSTEN]: {
-		name: 'Ropsten Test Network',
-		shortName: 'Ropsten',
-		networkId: 3,
-		chainId: 3,
-		hexChainId: '0x3',
-		color: '#ff4a8d',
-		networkType: 'ropsten',
-	},
-	[KOVAN]: {
-		name: 'Kovan Test Network',
-		shortName: 'Kovan',
-		networkId: 42,
-		chainId: 42,
-		hexChainId: '0x2a',
-		color: '#7057ff',
-		networkType: 'kovan',
-	},
-	[RINKEBY]: {
-		name: 'Rinkeby Test Network',
-		shortName: 'Rinkeby',
-		networkId: 4,
-		chainId: 4,
-		hexChainId: '0x4',
-		color: '#f6c343',
-		networkType: 'rinkeby',
-	},
-	[GOERLI]: {
-		name: 'Goerli Test Network',
-		shortName: 'Goerli',
-		networkId: 5,
-		chainId: 5,
-		hexChainId: '0x5',
-		color: '#3099f2',
-		networkType: 'goerli',
+	[BSC]: {
+		name: 'Binance Smart Chain',
+		shortName: 'Binance',
+		networkId: 56,
+		chainId: 56,
+		hexChainId: '0x89',
+		color: '#f1b90c',
+		networkType: 'rpc',
 	},
 	[RPC]: {
 		name: 'Private Network',

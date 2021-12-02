@@ -1,4 +1,4 @@
-package io.metamask;
+package ar.peronio;
 
 import com.wix.detox.Detox;
 

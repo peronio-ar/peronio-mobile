@@ -1,4 +1,4 @@
-package io.metamask;
+package ar.peronio;
 
 import android.content.Intent;
 import android.os.Bundle;
