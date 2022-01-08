@@ -32,6 +32,7 @@ local.properties
 android/.project
 android/app/.project
 android/app/bin/
+android/app/debug/
 android/app/gradle*
 android/app/_build*
 
@@ -81,3 +82,5 @@ coverage
 
 # Language files to add
 /locales/languagesToUpdate/*.json
+
+
