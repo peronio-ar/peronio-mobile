@@ -20,7 +20,7 @@ import ProtectYourWalletModal from '../pages/modals/ProtectYourWalletModal';
 
 const RINKEBY = 'Rinkeby Test Network';
 const XDAI_URL = 'https://dai.poa.network/';
-const MAINNET = 'Polygon';
+const MAINNET = 'Ethereum Main Network';
 const PASSWORD = '12345678';
 
 describe('Custom RPC Tests', () => {
